@@ -15,4 +15,5 @@
   -->
 <resources>
     <string name="app_name">Project Setup</string>
+    <string name="hola">Hola Mundo!</string>
 </resources>
