@@ -24,12 +24,4 @@
     android:textSize="42sp"
     style="@style/TextAppearance.AppCompat.Title"/>
 
-
-
-
-
-
-
-
-
 </FrameLayout>
