@@ -22,8 +22,8 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:26.0.2'
-
-    // TODO (1) Add RecyclerView dependency
+    // COMPLETE (1) Add RecyclerView dependency
+    compile 'com.android.support:recyclerview-v7:26.0.2'
 
     // Instrumentation dependencies use androidTestCompile
     // (as opposed to testCompile for local unit tests run in the JVM)
@@ -31,4 +31,5 @@ dependencies {
     androidTestCompile 'com.android.support:support-annotations:26.0.2'
     androidTestCompile 'com.android.support.test:runner:0.5'
     androidTestCompile 'com.android.support.test:rules:0.5'
+
 }
