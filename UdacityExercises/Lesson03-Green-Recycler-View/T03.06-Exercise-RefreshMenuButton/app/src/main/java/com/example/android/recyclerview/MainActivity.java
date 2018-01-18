@@ -19,6 +19,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Menu;
+import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,13 +37,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         /*
          * Using findViewById, we get a reference to our RecyclerView from xml. This allows us to
          * do things like set the adapter of the RecyclerView and toggle the visibility.
          */
         mNumbersList = (RecyclerView) findViewById(R.id.rv_numbers);
-
         /*
          * A LinearLayoutManager is responsible for measuring and positioning item views within a
          * RecyclerView into a linear list. This means that it can produce either a horizontal or
@@ -55,13 +55,11 @@ public class MainActivity extends AppCompatActivity {
          */
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         mNumbersList.setLayoutManager(layoutManager);
-
         /*
          * Use this setting to improve performance if you know that changes in content do not
          * change the child layout size in the RecyclerView
          */
         mNumbersList.setHasFixedSize(true);
-
         /*
          * The GreenAdapter is responsible for displaying each item in the list.
          */
@@ -69,19 +67,28 @@ public class MainActivity extends AppCompatActivity {
         mNumbersList.setAdapter(mAdapter);
     }
 
-    // TODO (2) Create a menu resource in res/menu/ called main.xml
-    // TODO (3) Add one item to the menu with an ID of action_refresh
-    // TODO (4) Set the title of the menu item to "Refresh" using strings.xml
-    // TODO (5) Set the orderInCategory value to 1 to make sure this item is the first in the list
-    // TODO (6) Set app:showAsAction to ifRoom to display the menu item in the ActionBar if there is room
+    // COMPLETE (7) Override onCreateOptionsMenu
+    // COMPLETE (8) Use getMenuInflater().inflate to inflate the menu
+    // COMPLETE (9) Return true to display this menu
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main,menu);
+        return true;
+    }
 
-
-    // TODO (7) Override onCreateOptionsMenu
-    // TODO (8) Use getMenuInflater().inflate to inflate the menu
-    // TODO (9) Return true to display this menu
-
-    // TODO (10) Override onOptionsItemSelected
-    // TODO (11) Within this method, get the ID from the MenuItem
-    // TODO (12) If the ID equals R.id.action_refresh, create and set a new adapter on the RecyclerView and return true
-    // TODO (13) For now, for all other IDs, return super.onOptionsItemSelected
+    // COMPLETE (10) Override onOptionsItemSelected
+    // COMPLETE (11) Within this method, get the ID from the MenuItem
+    // COMPLETE (12) If the ID equals R.id.action_refresh, create and set a new adapter on the RecyclerView and return true
+    // COMPLETE (13) For now, for all other IDs, return super.onOptionsItemSelected
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int itemId = item.getItemId();
+        switch(itemId){
+            case R.id.action_refresh:
+                mAdapter = new GreenAdapter(NUM_LIST_ITEMS);
+                mNumbersList.setAdapter(mAdapter);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }
