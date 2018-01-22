@@ -44,9 +44,7 @@ public class MainActivity extends AppCompatActivity implements ForecastAdapterOn
 
     private RecyclerView mRecyclerView;
     private ForecastAdapter mForecastAdapter;
-
     private TextView mErrorMessageDisplay;
-
     private ProgressBar mLoadingIndicator;
 
     @Override
@@ -201,6 +199,20 @@ public class MainActivity extends AppCompatActivity implements ForecastAdapterOn
         }
     }
 
+    private void openLocationInMap(){
+        String addressString = "1600 Pennsylvania Ave NW, DC";
+        Uri geoLocation = Uri.parse("geo:0,0?q=" + addressString);
+
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setData(geoLocation);
+
+        if(intent.resolveActivity(getPackageManager()) != null){
+            startActivity(intent);
+        }else{
+            Log.d(TAG, "Could not call " + geoLocation.toString() + ", intent could not be handled by any app.");
+        }
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         /* Use AppCompatActivity's method getMenuInflater to get a handle on the menu inflater */
@@ -221,7 +233,11 @@ public class MainActivity extends AppCompatActivity implements ForecastAdapterOn
             return true;
         }
 
-        // TODO (2) Launch the map when the map menu item is clicked
+        // COMPLETE (2) Launch the map when the map menu item is clicked
+        if(id == R.id.action_map){
+            openLocationInMap();
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }
