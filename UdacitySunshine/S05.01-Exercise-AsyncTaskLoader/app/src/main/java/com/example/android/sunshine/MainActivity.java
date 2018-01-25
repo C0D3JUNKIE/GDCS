@@ -249,6 +249,7 @@ public class MainActivity extends AppCompatActivity implements ForecastAdapterOn
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
         int id = item.getItemId();
 
         // COMPLETE (5) Refactor the refresh functionality to work with our AsyncTaskLoader
