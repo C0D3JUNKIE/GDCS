@@ -1,5 +1,6 @@
 package com.example.android.waitlist;
 
+import android.content.ClipData.Item;
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -7,12 +8,15 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.RecyclerView.ViewHolder;
 import android.support.v7.widget.helper.ItemTouchHelper;
+import android.support.v7.widget.helper.ItemTouchHelper.SimpleCallback;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
 import com.example.android.waitlist.data.WaitlistContract;
+import com.example.android.waitlist.data.WaitlistContract.WaitlistEntry;
 import com.example.android.waitlist.data.WaitlistDbHelper;
 
 
@@ -26,48 +30,49 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         RecyclerView waitlistRecyclerView;
-
         // Set local attributes to corresponding views
         waitlistRecyclerView = (RecyclerView) this.findViewById(R.id.all_guests_list_view);
         mNewGuestNameEditText = (EditText) this.findViewById(R.id.person_name_edit_text);
         mNewPartySizeEditText = (EditText) this.findViewById(R.id.party_count_edit_text);
-
         // Set layout for the RecyclerView, because it's a list we are using the linear layout
         waitlistRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-
-
         // Create a DB helper (this will create the DB if run for the first time)
         WaitlistDbHelper dbHelper = new WaitlistDbHelper(this);
-
         // Keep a reference to the mDb until paused or killed. Get a writable database
         // because you will be adding restaurant customers
         mDb = dbHelper.getWritableDatabase();
-
         // Get all guest info from the database and save in a cursor
         Cursor cursor = getAllGuests();
-
         // Create an adapter for that cursor to display the data
         mAdapter = new GuestListAdapter(this, cursor);
-
         // Link the adapter to the RecyclerView
         waitlistRecyclerView.setAdapter(mAdapter);
 
 
-        //TODO (3) Create a new ItemTouchHelper with a SimpleCallback that handles both LEFT and RIGHT swipe directions
-
-        // TODO (4) Override onMove and simply return false inside
-
-        // TODO (5) Override onSwiped
-
-        // TODO (8) Inside, get the viewHolder's itemView's tag and store in a long variable id
-        // TODO (9) call removeGuest and pass through that id
-        // TODO (10) call swapCursor on mAdapter passing in getAllGuests() as the argument
-
-        //TODO (11) attach the ItemTouchHelper to the waitlistRecyclerView
+        //COMPLETE (3) Create a new ItemTouchHelper with a SimpleCallback that handles both LEFT and RIGHT swipe directions
+        // COMPLETE (4) Override onMove and simply return false inside
+        // COMPLETE (5) Override onSwiped
+        new ItemTouchHelper(new SimpleCallback(0, ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT) {
+            @Override
+            public boolean onMove(RecyclerView recyclerView, ViewHolder viewHolder,
+                ViewHolder target) {
+                return false;
+            }
+            // COMPLETE (8) Inside, get the viewHolder's itemView's tag and store in a long variable id
+            // COMPLETE (9) call removeGuest and pass through that id
+            // COMPLETE (10) call swapCursor on mAdapter passing in getAllGuests() as the argument
+            @Override
+            public void onSwiped(ViewHolder viewHolder, int direction) {
+                long id = (long) viewHolder.itemView.getTag();
+                removeGuest(id);
+                mAdapter.swapCursor(getAllGuests());
+            }
+            //COMPLETE (11) attach the ItemTouchHelper to the waitlistRecyclerView
+        }).attachToRecyclerView(waitlistRecyclerView);
 
     }
 
@@ -136,9 +141,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    // TODO (1) Create a new function called removeGuest that takes long id as input and returns a boolean
-
-    // TODO (2) Inside, call mDb.delete to pass in the TABLE_NAME and the condition that WaitlistEntry._ID equals id
+    // COMPLETE (1) Create a new function called removeGuest that takes long id as input and returns a boolean
+    // COMPLETE (2) Inside, call mDb.delete to pass in the TABLE_NAME and the condition that WaitlistEntry._ID equals id
+    public boolean removeGuest(long id){
+        return mDb.delete(WaitlistEntry.TABLE_NAME, WaitlistEntry._ID + "=" + id, null) >0;
+    }
 
 
 }
