@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         mDb = dbHelper.getWritableDatabase();
         // COMPLETE (4) call insertFakeData from TestUtil and pass the database reference mDb
         TestUtil.insertFakeData(mDb);
-        // COMPLETE (7) Run the getAllGuests function and store the result in a Cursor variable
+        // COMPLETE (7) Run the getAllGuests function and store the result in a Cursor variableA
         Cursor cursor = getAllGuests();
         // COMPLETE (12) Pass the resulting cursor count to the adapter
         mAdapter = new GuestListAdapter(this, cursor.getCount());
