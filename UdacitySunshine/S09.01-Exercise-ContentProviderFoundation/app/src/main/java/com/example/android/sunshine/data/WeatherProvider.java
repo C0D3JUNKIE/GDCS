@@ -18,9 +18,11 @@ package com.example.android.sunshine.data;
 import android.annotation.TargetApi;
 import android.content.ContentProvider;
 import android.content.ContentValues;
+import android.content.UriMatcher;
 import android.database.Cursor;
 import android.net.Uri;
 import android.support.annotation.NonNull;
+import com.example.android.sunshine.data.WeatherContract.WeatherEntry;
 
 /**
  * This class serves as the ContentProvider for all of Sunshine's data. This class allows us to
@@ -34,21 +36,32 @@ import android.support.annotation.NonNull;
  */
 public class WeatherProvider extends ContentProvider {
 
-//  TODO (5) Create static constant integer values named CODE_WEATHER & CODE_WEATHER_WITH_DATE to identify the URIs this ContentProvider can handle
+//  COMPLETE (5) Create static constant integer values named CODE_WEATHER & CODE_WEATHER_WITH_DATE to identify the URIs this ContentProvider can handle
+    public static final int CODE_WEATHER = 100;
+    public static final int CODE_WEATHER_WITH_DATE = 101;
+//  COMPLETE (7) Instantiate a static UriMatcher using the buildUriMatcher method
+    private static final UriMatcher sUriMatcher = buildUriMatcher();
 
-//  TODO (7) Instantiate a static UriMatcher using the buildUriMatcher method
+    private WeatherDbHelper mOpenHelper;
 
-    WeatherDbHelper mOpenHelper;
+//  COMMPLETE (6) Write a method called buildUriMatcher where you match URI's to their numeric ID
+    public static UriMatcher buildUriMatcher(){
+        final UriMatcher matcher = new UriMatcher(UriMatcher.NO_MATCH);
+        final String authority = WeatherContract.CONTENT_AUTHORITY;
 
-//  TODO (6) Write a method called buildUriMatcher where you match URI's to their numeric ID
+        matcher.addURI(authority, WeatherContract.PATH_WEATHER, CODE_WEATHER);
+        matcher.addURI(authority, WeatherContract.PATH_WEATHER + "/#", CODE_WEATHER_WITH_DATE);
 
-//  TODO (1) Implement onCreate
+        return matcher;
+    }
+
+//  COMPLETE (1) Implement onCreate
     @Override
     public boolean onCreate() {
-//      TODO (2) Within onCreate, instantiate our mOpenHelper
-
-//      TODO (3) Return true from onCreate to signify success performing setup
-        return false;
+//      COMPLETE (2) Within onCreate, instantiate our mOpenHelper
+        mOpenHelper = new WeatherDbHelper(getContext());
+//      COMPLETE (3) Return true from onCreate to signify success performing setup
+        return true;
     }
 
     /**
@@ -66,10 +79,10 @@ public class WeatherProvider extends ContentProvider {
      */
     @Override
     public int bulkInsert(@NonNull Uri uri, @NonNull ContentValues[] values) {
-        throw new RuntimeException("Student, you need to implement the bulkInsert mehtod!");
+        throw new RuntimeException("Student, you need to implement the bulkInsert method and spell shit correctly!");
     }
 
-//  TODO (8) Provide an implementation for the query method
+//  COMPLETE (8) Provide an implementation for the query method
     /**
      * Handles query requests from clients. We will use this method in Sunshine to query for all
      * of our weather data as well as to query for the weather on a particular day.
@@ -86,13 +99,27 @@ public class WeatherProvider extends ContentProvider {
      * @return A Cursor containing the results of the query. In our implementation,
      */
     @Override
-    public Cursor query(@NonNull Uri uri, String[] projection, String selection,
-                        String[] selectionArgs, String sortOrder) {
-        throw new RuntimeException("Student, implement the query method!");
-
-//      TODO (9) Handle queries on both the weather and weather with date URI
-
-//      TODO (10) Call setNotificationUri on the cursor and then return the cursor
+    public Cursor query(@NonNull Uri uri, String[] projection, String selection, String[] selectionArgs, String sortOrder) {
+//        throw new RuntimeException("Student, implement the query method!");
+//      COMPLETE (9) Handle queries on both the weather and weather with date URI
+        Cursor cursor;
+//      COMPLETE (10) Call setNotificationUri on the cursor and then return the cursor
+        switch (sUriMatcher.match(uri)){
+            case CODE_WEATHER_WITH_DATE:{
+                String normalizedUtcDateString = uri.getLastPathSegment();
+                String[] selectionArguments = new String[]{normalizedUtcDateString};
+                cursor = mOpenHelper.getReadableDatabase().query(WeatherEntry.TABLE_NAME,projection, WeatherEntry.COLUMN_DATE +
+                " = ? ", selectionArguments, null, null, sortOrder);
+                break;
+            }
+            case CODE_WEATHER:{
+                cursor = mOpenHelper.getReadableDatabase().query(WeatherEntry.TABLE_NAME, projection, selection, selectionArgs, null, null, sortOrder);
+                break;
+            }
+            default:
+                throw new UnsupportedOperationException("Unknown URI: " + uri);
+        }
+        return cursor;
     }
 
     /**
