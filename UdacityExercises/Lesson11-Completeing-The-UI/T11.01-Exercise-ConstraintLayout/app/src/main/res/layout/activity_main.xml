@@ -12,7 +12,7 @@
     <android.support.constraint.ConstraintLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
     <!-- COMPLETE (3) Create a TextView for the Passenger label and name -->
     <!-- COMPLETE (4) Use tool:text to set the text value -->
@@ -51,7 +51,8 @@
           android:background="@drawable/shape_rectangle_stroke"
           android:layout_marginLeft="32dp"
           android:layout_marginTop="16dp"
-          android:layout_marginStart="32dp"/>
+          android:layout_marginStart="32dp"
+          android:contentDescription="TODO"/>
 
         <!-- COMPLETE (7) Create an ImageView for the divider -->
         <ImageView
@@ -107,6 +108,7 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:id="@+id/imagePlane"
+          android:background="@drawable/art_plane"
           android:layout_marginBottom="16dp"
           app:layout_constraintBottom_toTopOf="@+id/divider"
           app:layout_constraintLeft_toRightOf="@+id/leftRectangle"
