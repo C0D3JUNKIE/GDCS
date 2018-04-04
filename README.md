@@ -12,10 +12,15 @@ There are two major sections of these exercises, the first is categorized as the
 ###Lesson 01 - Favorite Toys
 
 [T01.01 - Exercise-CreateLayout](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout)
-T01.02 - Exercise-DisplayToyList - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.02-Exercise-DisplayToyList
-T01.03 - Exercise-AddScrolling - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.03-Exercise-AddScrolling
+Description:
 
-Lesson 02 - GitHub-Repo-Search
+[T01.02 - Exercise-DisplayToyList](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.02-Exercise-DisplayToyList)
+Description:
+
+[T01.03 - Exercise-AddScrolling](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.03-Exercise-AddScrolling)
+Description:
+
+###Lesson 02 - GitHub-Repo-Search
 
 T02.01-Exercise-CreateLayout - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.01-Exercise-CreateLayout
 T02.02-Exercise-AddMenu - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.02-Exercise-AddMenu
