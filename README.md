@@ -1,16 +1,17 @@
 # GDCS -Udacity - Google Developer Challenge Scholarship
 
-Grow with Google Challenge Scholarship: Android Dev
+###Grow with Google Challenge Scholarship: Android Dev
 
 Description:  This repo contains multiple projects for the Google Developer Challenge Scholarship in association with Udacity.  This project contains all of the exercises for the Toy Apps and the Sunshine Weather App.  Below you will find links to each of the seperate folders for each of the listed projects.
 
+There are two major sections of these exercises, the first is categorized as the TOY APPS and second is the SUNSHINE APP.  The TOY APP exercises are to demonstrate functionality of major features in Android Development.  The SUNSHINE APP is single complete app, the exercises demonstrate the feature implementation in a real world project.  Each section has many exercises broken down by lesson.  Links are provided below.
 
 
-EXERCISES:  LESSONS 01 thru 12
+#####EXERCISES:  LESSONS 01 thru 12
 
 ###Lesson 01 - Favorite Toys
 
-[T01.01 - Exercise-CreateLayout] - (https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout)
+[T01.01 - Exercise-CreateLayout](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout)
 T01.02 - Exercise-DisplayToyList - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.02-Exercise-DisplayToyList
 T01.03 - Exercise-AddScrolling - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.03-Exercise-AddScrolling
 
