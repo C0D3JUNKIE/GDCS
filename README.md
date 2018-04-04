@@ -8,7 +8,7 @@ Description:  This repo contains multiple projects for the Google Developer Chal
 
 EXERCISES:  LESSONS 01 thru 12
 
-Lesson 01 - Favorite Toys
+###Lesson 01 - Favorite Toys###
 
 T01.01 - Exercise-CreateLayout - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout
 T01.02 - Exercise-DisplayToyList - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.02-Exercise-DisplayToyList
