@@ -11,9 +11,8 @@ There are two major sections of these exercises, the first is categorized as the
 
 #### Lesson 01 - Favorite Toys
 
-[T01.01 - Exercise-CreateLayout](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout)
+[T01.01 - Exercise-CreateLayout](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout)   -  Description:
 
-Description:
 
 [T01.02 - Exercise-DisplayToyList](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.02-Exercise-DisplayToyList)
 
