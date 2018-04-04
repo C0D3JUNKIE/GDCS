@@ -10,7 +10,7 @@ EXERCISES:  LESSONS 01 thru 12
 
 ###Lesson 01 - Favorite Toys
 
-T01.01 - Exercise-CreateLayout - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout
+[T01.01 - Exercise-CreateLayout] - (https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout)
 T01.02 - Exercise-DisplayToyList - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.02-Exercise-DisplayToyList
 T01.03 - Exercise-AddScrolling - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.03-Exercise-AddScrolling
 
