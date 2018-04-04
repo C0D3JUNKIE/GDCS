@@ -8,31 +8,47 @@ Description:  This repo contains multiple projects for the Google Developer Chal
 
 EXERCISES:  LESSONS 01 thru 12
 
-Lesson 01
+Lesson 01 - Favorite Toys
+T01.01 - Exercise-CreateLayout - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout
+T01.02 - Exercise-DisplayToyList - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.02-Exercise-DisplayToyList
+T01.03 - Exercise-AddScrolling - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.03-Exercise-AddScrolling
+
+Lesson 02 - GitHub-Repo-Search
+T02.01-Exercise-CreateLayout - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.01-Exercise-CreateLayout
+T02.02-Exercise-AddMenu - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.02-Exercise-AddMenu
+T02.03-Exercise-DisplayUrl - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.03-Exercise-DisplayUrl
+T02.04-Exercise-ConnectingToTheInternet - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.04-Exercise-ConnectingToTheInternet
+T02.05-Exercise-CreateAsyncTask - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.05-Exercise-CreateAsyncTask
+T02.06-Exercise-AddPolish - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.06-Exercise-AddPolish
+
+Lesson 03 - Green-Recycler-View
+T03.01 - Exercise - RecyclerViewLayout - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.01-Exercise-RecyclerViewLayout
+T03.02 - Exercise - ViewHolder - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.02-Exercise-ViewHolder
+T03.03 - Exercise - RecyclerViewAdapter - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.03-Exercise-RecyclerViewAdapter
+T03.04 - Exercise - WiringUpRecyclerView - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.04-Exercise-WiringUpRecyclerView
+T03.05 - Exercise - GoingGreen - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.05-Exercise-GoingGreen
+T03.06 - Exercise - RefreshMenuButton - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.06-Exercise-RefreshMenuButton
+T03.07 - Exercise - RecyclerViewClickHandling - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.07-Exercise-RecyclerViewClickHandling
 
 
-Lesson 02
+Lesson 04a - Starting-New-Activities
+T04a.01 - Exercise - AddNewActivity - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson04a-Starting-New-Activities/T04a.01-Exercise-AddNewActivity
+T04a.02 - Exercise - StartNewActivity - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson04a-Starting-New-Activities/T04a.02-Exercise-StartNewActivity
+T04a.03 - Exercise - PassingDataBetweenActivities - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson04a-Starting-New-Activities/T04a.03-Exercise-PassingDataBetweenActivities
 
 
-Lesson 03
+Lesson 04b - Webpages-Maps-and-Sharing
+T04b.01 - Exercise - OpenWebPage - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson04b-Webpages-Maps-and-Sharing/T04b.01-Exercise-OpenWebpage
+T04b.02 - Exercise - OpenMap - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson04b-Webpages-Maps-and-Sharing/T04b.02-Exercise-OpenMap
+T04b.03 - Exercise - ShareText - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson04b-Webpages-Maps-and-Sharing/T04b.03-Exercise-ShareText
 
 
-Lesson 04
-
-
-Lesson 05
-
-
-Lesson 06
-
-
-Lesson 07
-
-
-Lesson 08
-
-
-Lesson 09
+Lesson 05a - Android-Lifecycle
+Lesson 05b - Smarter-Github-Repo-Search
+Lesson 06 - Visualizer-Preferences
+Lesson 07 - Waitlist
+Lesson 08 - Quiz-Example
+Lesson 09 - ToDo-List
 
 Lesson 10 - Hydration Reminder
 
