@@ -225,11 +225,10 @@ There are two major sections of these exercises, the first is categorized as the
 
 
 [T10.02 - Exercise - CreateNotification](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/
-Lesson10-Hydration-Reminder/T10.02-Exercise-CreateNotification) - Description:
-
+Lesson10-Hydration-Reminder/T10.02-Exercise-CreateNotification) - Description: 
 
 [T10.03 - Exercise - NotificationActions](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/
-Lesson10-Hydration-Reminder/T10.03-Exercise-NotificationActions) - Description:
+Lesson10-Hydration-Reminder/T10.03-Exercise-NotificationActions) - Description: 
 
 
 [T10.04 - Exercise - PeriodicSyncWithJobDispatcher](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson10-Hydration-Reminder/T10.04-Exercise-PeriodicSyncWithJobDispatcher) - Description:
