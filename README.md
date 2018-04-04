@@ -1,15 +1,15 @@
 # GDCS -Udacity - Google Developer Challenge Scholarship
 
-###Grow with Google Challenge Scholarship: Android Dev
+## Grow with Google Challenge Scholarship: Android Dev
 
 Description:  This repo contains multiple projects for the Google Developer Challenge Scholarship in association with Udacity.  This project contains all of the exercises for the Toy Apps and the Sunshine Weather App.  Below you will find links to each of the seperate folders for each of the listed projects.
 
 There are two major sections of these exercises, the first is categorized as the TOY APPS and second is the SUNSHINE APP.  The TOY APP exercises are to demonstrate functionality of major features in Android Development.  The SUNSHINE APP is single complete app, the exercises demonstrate the feature implementation in a real world project.  Each section has many exercises broken down by lesson.  Links are provided below.
 
 
-#####EXERCISES:  LESSONS 01 thru 12
+### EXERCISES:  LESSONS 01 thru 12
 
-###Lesson 01 - Favorite Toys
+#### Lesson 01 - Favorite Toys
 
 [T01.01 - Exercise-CreateLayout](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout)
 Description:
@@ -20,27 +20,53 @@ Description:
 [T01.03 - Exercise-AddScrolling](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.03-Exercise-AddScrolling)
 Description:
 
-###Lesson 02 - GitHub-Repo-Search
+#### Lesson 02 - GitHub-Repo-Search
 
-T02.01-Exercise-CreateLayout - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.01-Exercise-CreateLayout
-T02.02-Exercise-AddMenu - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.02-Exercise-AddMenu
-T02.03-Exercise-DisplayUrl - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.03-Exercise-DisplayUrl
-T02.04-Exercise-ConnectingToTheInternet - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.04-Exercise-ConnectingToTheInternet
-T02.05-Exercise-CreateAsyncTask - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.05-Exercise-CreateAsyncTask
+[T02.01-Exercise-CreateLayout](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.01-Exercise-CreateLayout)
+Description:
+
+[T02.02-Exercise-AddMenu[(https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.02-Exercise-AddMenu)
+Description:
+
+[T02.03-Exercise-DisplayUrl](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.03-Exercise-DisplayUrl)
+Description:
+
+[T02.04-Exercise-ConnectingToTheInternet](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.04-Exercise-ConnectingToTheInternet)
+Description:
+
+[T02.05-Exercise-CreateAsyncTask](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.05-Exercise-CreateAsyncTask)
+Description:
+
 T02.06-Exercise-AddPolish - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.06-Exercise-AddPolish
-
-Lesson 03 - Green-Recycler-View
-
-T03.01 - Exercise - RecyclerViewLayout - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.01-Exercise-RecyclerViewLayout
-T03.02 - Exercise - ViewHolder - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.02-Exercise-ViewHolder
-T03.03 - Exercise - RecyclerViewAdapter - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.03-Exercise-RecyclerViewAdapter
-T03.04 - Exercise - WiringUpRecyclerView - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.04-Exercise-WiringUpRecyclerView
-T03.05 - Exercise - GoingGreen - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.05-Exercise-GoingGreen
-T03.06 - Exercise - RefreshMenuButton - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.06-Exercise-RefreshMenuButton
-T03.07 - Exercise - RecyclerViewClickHandling - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.07-Exercise-RecyclerViewClickHandling
+Description:
 
 
-Lesson 04a - Starting-New-Activities
+#### Lesson 03 - Green-Recycler-View
+
+[T03.01 - Exercise - RecyclerViewLayout](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.01-Exercise-RecyclerViewLayout)
+Description:
+
+[T03.02 - Exercise - ViewHolder](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.02-Exercise-ViewHolder)
+Description:
+
+[T03.03 - Exercise - RecyclerViewAdapter](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.03-Exercise-RecyclerViewAdapter)
+Description:
+
+[T03.04 - Exercise - WiringUpRecyclerView](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.04-Exercise-WiringUpRecyclerView)
+Description:
+
+[T03.05 - Exercise - GoingGreen](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.05-Exercise-GoingGreen)
+Description:
+
+[T03.06 - Exercise - RefreshMenuButton](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.06-Exercise-RefreshMenuButton)
+Description:
+
+[T03.07 - Exercise - RecyclerViewClickHandling](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.07-Exercise-RecyclerViewClickHandling)
+Description:
+
+
+#### Lesson 04a - Starting-New-Activities
+
 T04a.01 - Exercise - AddNewActivity - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson04a-Starting-New-Activities/T04a.01-Exercise-AddNewActivity
 T04a.02 - Exercise - StartNewActivity - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson04a-Starting-New-Activities/T04a.02-Exercise-StartNewActivity
 T04a.03 - Exercise - PassingDataBetweenActivities - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson04a-Starting-New-Activities/T04a.03-Exercise-PassingDataBetweenActivities
