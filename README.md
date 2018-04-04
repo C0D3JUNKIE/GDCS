@@ -9,11 +9,13 @@ Description:  This repo contains multiple projects for the Google Developer Chal
 EXERCISES:  LESSONS 01 thru 12
 
 Lesson 01 - Favorite Toys
+
 T01.01 - Exercise-CreateLayout - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.01-Exercise-CreateLayout
 T01.02 - Exercise-DisplayToyList - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.02-Exercise-DisplayToyList
 T01.03 - Exercise-AddScrolling - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson01-Favorite-Toys/T01.03-Exercise-AddScrolling
 
 Lesson 02 - GitHub-Repo-Search
+
 T02.01-Exercise-CreateLayout - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.01-Exercise-CreateLayout
 T02.02-Exercise-AddMenu - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.02-Exercise-AddMenu
 T02.03-Exercise-DisplayUrl - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.03-Exercise-DisplayUrl
@@ -22,6 +24,7 @@ T02.05-Exercise-CreateAsyncTask - https://github.com/C0D3JUNKIE/GDCS/tree/master
 T02.06-Exercise-AddPolish - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson02-GitHub-Repo-Search/T02.06-Exercise-AddPolish
 
 Lesson 03 - Green-Recycler-View
+
 T03.01 - Exercise - RecyclerViewLayout - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.01-Exercise-RecyclerViewLayout
 T03.02 - Exercise - ViewHolder - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.02-Exercise-ViewHolder
 T03.03 - Exercise - RecyclerViewAdapter - https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson03-Green-Recycler-View/T03.03-Exercise-RecyclerViewAdapter
