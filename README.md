@@ -2,25 +2,11 @@
 
 ## Grow with Google Challenge Scholarship: Android Dev
 
+I created this project page to outline my efforts in the Google Developer Challenge Scholarship from Udacity.  I really used this project page to get more familiar with GitHub's project and issue tracking features.
+
 Description:  This repo contains multiple projects for the Google Developer Challenge Scholarship in association with Udacity.  This project contains all of the exercises for the Toy Apps and the Sunshine Weather App.  Below you will find links to each of the seperate folders for each of the listed projects.
 
 There are two major sections of these exercises, the first is categorized as the TOY APPS and second is the SUNSHINE APP.  The TOY APP exercises are to demonstrate functionality of major features in Android Development.  The SUNSHINE APP is single complete app, the exercises demonstrate the feature implementation in a real world project.  Each section has many exercises broken down by lesson.  Links are provided below.
-
-
-### SUNSHINE: Lessons 1 thru 12
-#### Lesson 01 - 
-#### Lesson 02 - 
-#### Lesson 03 - 
-#### Lesson 04 - 
-#### Lesson 05 - 
-#### Lesson 06 - 
-#### Lesson 07 - 
-#### Lesson 08 - 
-#### Lesson 09 - 
-#### Lesson 10 -
-#### Lesson 11 - 
-#### Lesson 12 - 
-
 
 ### EXERCISES:  Lessons 1 thru 12
 #### Lesson 01 - Favorite Toys
@@ -265,4 +251,22 @@ Lesson10-Hydration-Reminder/T10.03-Exercise-NotificationActions) - Description:
 
 
 [T12.04 - Exercise - TouchSelector](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacityExercises/Lesson12-Visual-Polish/T12.04-Exercise-TouchSelector) - Description:
+
+
+### SUNSHINE: Lessons 1 thru 12
+#### Lesson 01 - 
+#### Lesson 02 - 
+#### Lesson 03 - 
+#### Lesson 04 - 
+#### Lesson 05 - 
+#### Lesson 06 - 
+#### Lesson 07 - 
+#### Lesson 08 - 
+#### Lesson 09 - 
+#### Lesson 10 -
+#### Lesson 11 - 
+#### Lesson 12 - 
+
+
+
 
