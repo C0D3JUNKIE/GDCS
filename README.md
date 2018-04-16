@@ -255,17 +255,113 @@ Lesson10-Hydration-Reminder/T10.03-Exercise-NotificationActions) - Description:
 
 ### SUNSHINE: Lessons 1 thru 12
 #### Lesson 01 - 
+[S01.01-Exercise-CreateLayout Sunshine Lesson 1 Exercise 1](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S01.01-Exercise-CreateLayout) - Description: 
+
+
+[S01.02-Exercise-AddWeatherList Sunshine Lesson 1 Exercise 2](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S01.02-Exercise-AddWeatherList) - Description:
+
+
 #### Lesson 02 - 
+[S02.01-Exercise-Networking	Sunshine - Lesson 2 Exercise 1](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S02.01-Exercise-Networking) - Description:
+
+
+[S02.02-Exercise-Menus Sunshine - Lesson 2 Exercise 2](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S02.02-Exercise-Menus) - Description:
+
+
+[S02.03-Exercise-Polish	Sunshine - Lesson 2 Exercise 3](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S02.03-Exercise-Polish) - Description:
+
+
+
 #### Lesson 03 - 
+[S03.01-Exercise-RecyclerView Sunshine - Lesson 3 Exercise 1](https://github.com/C0D3JUNKIE/GDCS/commit/eb5b8c6efdb8368700cafd98bb5757b3fd7ff1b2)
+
+
+[S03.02-Exercise-RecyclerViewClickHandling Sunshine - Lesson 3 Exercise 2](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S03.02-Exercise-RecyclerViewClickHandling)
+
+
+
 #### Lesson 04 - 
+[S04.01-Exercise-LaunchNewActivity	Sunshine - Lesson 4 Exercise 1](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S04.01-Exercise-LaunchNewActivity)
+
+
+[S04.02-Exercise-DisplayDayForecast	Sunshine - Lesson 4 Exercise 2](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S04.02-Exercise-DisplayDayForecast)
+
+
+[S04.03-Exercise-AddMapAndSharing	Sunshine - Lesson 4 Exercise 3](https://github.com/C0D3JUNKIE/GDCS/commit/a8ffb4580ce652adb2c4c7780756b75c964ae9f3)
+
 #### Lesson 05 - 
+[S05.01-Exercise-AsyncTaskLoader	Exercises: Lesson 5 Exercise 1](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S05.01-Exercise-AsyncTaskLoader)
+
 #### Lesson 06 - 
+[S06.01-Exercise-LaunchSettingsActivity	Sunshine: Lesson 6 Exercise 1](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S06.01-Exercise-LaunchSettingsActivity)
+
+
+[S06.02-Exercise-SettingsFragment	Sunshine: Lesson 6 Exercise 2](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S06.02-Exercise-SettingsFragment)
+
+
+[S06.03-Exercise-PolishingPreferences	Sunshine: Lesson 6 Exercise 3](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S06.03-Exercise-PolishingPreferences)
+
 #### Lesson 07 - 
-#### Lesson 08 - 
+[S07.01-Exercise-DatabaseCreation Sunshine: Lesson 7 Exercise 1](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S07.01-Exercise-DatabaseCreation)
+
+
+[S07.02-Exercise-PreventInvalidInserts Sunshine: Lesson 7 Exercise 2](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S07.02-Exercise-PreventInvalidInserts)
+
+
+[S07.03-Exercise-ConflictResolutionPolicy Sunshine: Lesson 7 Exercise 3]https://github.com/C0D3JUNKIE/GDCS/tree/master/
+UdacitySunshine/S07.03-Exercise-ConflictResolutionPolicy)
+
+#### Lesson 08 - The Mysterious Lesson 8
+
 #### Lesson 09 - 
+[S09.01-Exercise-ContentProviderFoundation	Sunshine: Lesson 9 Exercise 1](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S09.01-Exercise-ContentProviderFoundation)
+
+
+[S09.02-Exercise-ContentProviderBulkInsert	Sunshine: Lesson 9 Exercise 2](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S09.02-Exercise-ContentProviderBulkInsert)
+
+
+[S09.03-Exercise-ContentProviderDelete	Sunshine: Lesson 9 Exercise 3](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S09.03-Exercise-ContentProviderDelete)
+
+
+[S09.04-Exercise-UsingCursorLoader	Sunshine: Lesson 9 Exercise 4](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S09.04-Exercise-UsingCursorLoader)
+
+
+[S09.05-Exercise-MoreDetails	Sunshine: Lesson 9 Exercise 5](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S09.05-Exercise-MoreDetails)
+
 #### Lesson 10 -
+[S10.01-Exercise-SynchronizingTheWeather	Sunshine: Lesson 10 Exercise 1](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S10.01-Exercise-SynchronizingTheWeather)
+
+
+[S10.02-Exercise-SmarterSyncing	Sunshine: Lesson 10 Exercise 2](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S10.02-Exercise-SmarterSyncing)
+
+
+[S10.03-Exercise-FirebaseJobDispatcher	Sunshine: Lesson 10 Exercise 3](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S10.03-Exercise-FirebaseJobDispatcher)
+
+[S10.04-Exercise-Notifications	Sunshine: Lesson 10 Exercise 4](https://github.com/C0D3JUNKIE/GDCS/tree/master/
+UdacitySunshine/S10.04-Exercise-Notifications)
+
 #### Lesson 11 - 
+[S11.01-Exercise-NewListItemLayout	Sunshine: Lesson 11 Exercise 1](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S11.01-Exercise-NewListItemLayout)
+
+
+[S11.02-Exercise-TodayListItem	Sunshine: Lesson 11 Exercise 2](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S11.02-Exercise-TodayListItem)
+
+
+[S11.03-Exercise-DetailLayoutAndDataBinding	Sunshine: Lesson 11 Exercise 3](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S11.03-Exercise-DetailLayoutAndDataBinding)
+
 #### Lesson 12 - 
+[S12.01-Exercise-DimensionsColorsAndFonts	Sunshine: Lesson 12 Exercise 1](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S12.01-Exercise-DimensionsColorsAndFonts)
+
+
+[S12.02-Exercise-Styles	Exercises: Lesson 12 Exercise 2](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S12.02-Exercise-Styles)
+
+
+[S12.03-Exercise-TouchSelectors	Sunshine: Lesson 12 Exercise 3](https://github.com/C0D3JUNKIE/GDCS/tree/master/UdacitySunshine/S12.03-Exercise-TouchSelectors)
+
+
+[S12.04-Exercise-ResourceQualifiers	SUNSHINE: COMPLETE - ALL EXERCISES](https://github.com/C0D3JUNKIE/GDCS/tree/master/
+UdacitySunshine/S12.04-Exercise-ResourceQualifiers)
+
 
 
 
